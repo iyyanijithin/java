@@ -21,12 +21,12 @@ public class BubbleSort {
 
 				count = count + 1;
 				if (data[j] > data[j + 1]) {
-					int temp = data[j+1];
+					int temp = data[j + 1];
 					data[j + 1] = data[j];
-					data[j] = temp;					
+					data[j] = temp;
 				}
 			}
-			System.out.println("Pass "  + (i + 1));
+			System.out.println("Pass " + (i + 1));
 			printArray(data);
 		}
 		System.out.println("After sort");
@@ -34,8 +34,7 @@ public class BubbleSort {
 		printArray(data);
 
 	}
-	
-	
+
 	public static void sort2(int[] data) {
 
 		System.out.println("Before sort");
@@ -47,12 +46,12 @@ public class BubbleSort {
 
 				count = count + 1;
 				if (data[j] > data[j + 1]) {
-					int temp = data[j+1];
+					int temp = data[j + 1];
 					data[j + 1] = data[j];
 					data[j] = temp;
 				}
 			}
-			System.out.println("Pass "  + (i + 1));
+			System.out.println("Pass " + (i + 1));
 			printArray(data);
 		}
 		System.out.println("After sort");
