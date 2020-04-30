@@ -26,10 +26,10 @@ public class App {
 		BubbleSort.sort2(arr2);
 		*/
 
-		int[] arr3 = { 5, 4, 10, 2, 100, 7 };
+		int[] arr3 = { 9,8,7,1,4};
 		printArray(arr3);
 		SelectionSort.sort(arr3);
-		printArray(arr3);
+		//printArray(arr3);
 
 	}
 }
